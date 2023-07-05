@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+    <style>
+        .wufoo{
+            font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+        }
+        p{
+            font-weight: bold;
+        }
+        form{
+            border: 7px solid #C1D9F0;
+            padding: 15px;
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <form method="get" action="simpleform.html" class="wufoo">
+        <h2>Order Form</h2>
+        <p>What would you like to buy?</p>
+        <select>
+            <option value="">A</option>
+            <option value="">B (+0.5$)</option>
+            <option value="">C (+0.5$)</option>
+        </select>
+        <p>how many would you like to order?</p>
+        <input type="radio" name="" id="">
+        <label for="">1-$10</label><br>
+        <input type="radio" name="" id="">
+        <label for="">1-$10</label><br>
+        <input type="radio" name="" id="">
+        <label for="">1-$10</label><br>
+        <p>Name <span style="color: red;">*</span></p>
+        <input type="text" name="firstname" placeholder="Firstname" size="15">
+        <input type="text" name="lastname" placeholder="Lastname" size="15">
+        <p>Mail</p>
+        <input type="text" name="name" size="35">
+        <p>Phone Number</p>
+        <input type="text" name="phone1" size="5"> -
+        <input type="text" name="phone2" size="5"> -
+        <input type="text" name="phone3" size="5"><br>
+        <input type="submit" name="btSubmit" value="Submit">
+        
+    </form>
+</body>
+</html>

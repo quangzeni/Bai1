@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Search</title>
+</head>
+<body>
+    <!-- Sử dụng method get =>ra kết quả tìm kiếm -->
+    <form action="https://www.google.com/search?" method="get">
+        <input type="text" name="q" >
+        <!-- <input type="submit" value="Tìm Kiếm"> sử dụng input submit sẽ không tìm kiếm được. -->
+        <button>Search</button>
+    </form>
+    <!-- Sử dụng method post => không ra kết quả tìm kiếm, Lỗi -->
+    <form action="https://www.google.com/search?" method="post">
+        <input type="text" name="q" >
+        <button>Search</button>
+    </form>
+</body>
+</html>
